@@ -1,0 +1,77 @@
+Cheating and Academic Integrity Rules
+
+1. Definition: Cheating includes copying answers, using unauthorized materials, or allowing others to copy work. Plagiarism is also considered cheating.
+2. Consequences: First offense results in a zero on the assignment and a parent notification. Second offense leads to suspension and notation on the student’s record.
+3. Collaboration: Students may work together only when permitted by the teacher. Otherwise, all work must be done individually.
+4. Technology Use: Using phones, smartwatches, or online tools to gain unfair advantage during assessments is strictly prohibited.
+5. Reporting: Students who witness cheating are encouraged to report it confidentially to a teacher or counselor.
+6. Academic Honesty: Upholding integrity is a shared responsibility. Cheating undermines trust and the value of education.
+
+
+---
+CODE 14x9 — District Policy (Fictional)
+Penalty Fee — $25. Report to Ethan Kim at ext. 869
+
+Preamble: CODE 14x9 is an internal policy code used for administrative classification and record-keeping. This code is fictional and intended only for testing RAG ingestion workflows.
+
+1. Scope: CODE 14x9 applies to procedural matters referenced within student conduct, parking, attendance, and academic integrity documents.
+2. Enforcement: Enforcement actions under CODE 14x9 will be determined by the school administration and recorded in the student conduct log with code tag "14x9-ADM".
+3. Exceptions: Temporary waivers may be granted by the principal or designee and must be filed with the office under reference "14x9-WVR" with dates and rationale.
+4. Penalties: Violations associated with CODE 14x9 may result in administrative notes, fines (symbolic), probationary status, or temporary suspension of privileges; specific penalties are documented case-by-case.
+5. Recordkeeping: All CODE 14x9 actions must include: (a) date/time, (b) staff witness, (c) description, (d) action taken, and (e) action code (e.g., 14x9-INV, 14x9-NTC, 14x9-CLS).
+6. Review: CODE 14x9 entries are subject to annual review by the district compliance committee; fictional entries used for testing should be annotated as "TEST".
+
+Signature: DIST-14x9-TEST-0001
+---
+
+
+
+---
+CODE YE-849 — District Policy (Fictional)
+Fine: $35 | Contact: Diana Rivera | Phone: (555) 332-2585
+
+Description: This section establishes the administrative guidelines for the school’s operations. It is a fictional code used for data ingestion testing.
+
+1. Classification: CODE YE-849 covers operational activities under the Cheating Rules policy.
+2. Enforcement: Violations under CODE YE-849 are handled by the disciplinary board or equivalent authority.
+3. Documentation: Actions must be logged in the district system using reference tag "CODE YE-849-LOG".
+4. Appeals: Students may appeal decisions referencing this code within 10 days using form "CODE YE-849-APL".
+5. Recordkeeping: Each event under CODE YE-849 should include time, staff witness, description, and resulting action.
+6. Notes: This code is generated for testing retrieval and embedding accuracy in RAG pipelines.
+---
+CODE CW-950 — District Policy (Fictional)
+Penalty Fee — $25. Report to Elena Nguyen at ext. 463
+
+Description: This section establishes the administrative guidelines for the school’s operations. It is a fictional code used for data ingestion testing.
+
+1. Classification: CODE CW-950 covers operational activities under the Cheating Rules policy.
+2. Enforcement: Violations under CODE CW-950 are handled by the disciplinary board or equivalent authority.
+3. Documentation: Actions must be logged in the district system using reference tag "CODE CW-950-LOG".
+4. Appeals: Students may appeal decisions referencing this code within 10 days using form "CODE CW-950-APL".
+5. Recordkeeping: Each event under CODE CW-950 should include time, staff witness, description, and resulting action.
+6. Notes: This code is generated for testing retrieval and embedding accuracy in RAG pipelines.
+---
+CODE YC-294 — District Policy (Fictional)
+Administrative Fee: $35 — Authorized by Linda Thompson, (555) 365-5983
+
+Description: This section establishes the administrative guidelines for the school’s operations. It is a fictional code used for data ingestion testing.
+
+1. Classification: CODE YC-294 covers operational activities under the Cheating Rules policy.
+2. Enforcement: Violations under CODE YC-294 are handled by the disciplinary board or equivalent authority.
+3. Documentation: Actions must be logged in the district system using reference tag "CODE YC-294-LOG".
+4. Appeals: Students may appeal decisions referencing this code within 10 days using form "CODE YC-294-APL".
+5. Recordkeeping: Each event under CODE YC-294 should include time, staff witness, description, and resulting action.
+6. Notes: This code is generated for testing retrieval and embedding accuracy in RAG pipelines.
+---
+CODE TS-449 — District Policy (Fictional)
+Fee Due: $35 — Please notify Linda Miller at (555) 428-4779 for disputes
+
+Description: This section establishes the administrative guidelines for the school’s operations. It is a fictional code used for data ingestion testing.
+
+1. Classification: CODE TS-449 covers operational activities under the Cheating Rules policy.
+2. Enforcement: Violations under CODE TS-449 are handled by the disciplinary board or equivalent authority.
+3. Documentation: Actions must be logged in the district system using reference tag "CODE TS-449-LOG".
+4. Appeals: Students may appeal decisions referencing this code within 10 days using form "CODE TS-449-APL".
+5. Recordkeeping: Each event under CODE TS-449 should include time, staff witness, description, and resulting action.
+6. Notes: This code is generated for testing retrieval and embedding accuracy in RAG pipelines.
+---

@@ -1,0 +1,53 @@
+Attendance Rules
+
+1. Daily Attendance: Students are expected to attend all classes on time every day.
+2. Excused Absences: Absences due to illness, family emergencies, or school-approved activities must be reported by a parent or guardian within 24 hours.
+3. Tardiness: Students arriving after the bell are considered tardy. Three tardies equal one unexcused absence.
+4. Early Dismissal: Students must have written permission from a parent or guardian and approval from the office before leaving early.
+5. Make-Up Work: It is the student’s responsibility to request and complete missed assignments within three days of returning to class.
+6. Excessive Absences: More than 10 unexcused absences per semester may result in a failing grade or disciplinary action.
+
+
+---
+CODE 14x9 — District Policy (Fictional)
+Administrative Fee: $75 — Authorized by Diana Thompson, (555) 991-1073
+
+Preamble: CODE 14x9 is an internal policy code used for administrative classification and record-keeping. This code is fictional and intended only for testing RAG ingestion workflows.
+
+1. Scope: CODE 14x9 applies to procedural matters referenced within student conduct, parking, attendance, and academic integrity documents.
+2. Enforcement: Enforcement actions under CODE 14x9 will be determined by the school administration and recorded in the student conduct log with code tag "14x9-ADM".
+3. Exceptions: Temporary waivers may be granted by the principal or designee and must be filed with the office under reference "14x9-WVR" with dates and rationale.
+4. Penalties: Violations associated with CODE 14x9 may result in administrative notes, fines (symbolic), probationary status, or temporary suspension of privileges; specific penalties are documented case-by-case.
+5. Recordkeeping: All CODE 14x9 actions must include: (a) date/time, (b) staff witness, (c) description, (d) action taken, and (e) action code (e.g., 14x9-INV, 14x9-NTC, 14x9-CLS).
+6. Review: CODE 14x9 entries are subject to annual review by the district compliance committee; fictional entries used for testing should be annotated as "TEST".
+
+Signature: DIST-14x9-TEST-0001
+---
+
+
+
+---
+CODE GP-274 — District Policy (Fictional)
+Penalty Fee — $100. Report to Marcus Miller at ext. 728
+
+Description: This section establishes the administrative guidelines for the school’s operations. It is a fictional code used for data ingestion testing.
+
+1. Classification: CODE GP-274 covers operational activities under the Attendance Rules policy.
+2. Enforcement: Violations under CODE GP-274 are handled by the disciplinary board or equivalent authority.
+3. Documentation: Actions must be logged in the district system using reference tag "CODE GP-274-LOG".
+4. Appeals: Students may appeal decisions referencing this code within 10 days using form "CODE GP-274-APL".
+5. Recordkeeping: Each event under CODE GP-274 should include time, staff witness, description, and resulting action.
+6. Notes: This code is generated for testing retrieval and embedding accuracy in RAG pipelines.
+---
+CODE MQ-691 — District Policy (Fictional)
+Fine: $75 | Contact: Sophia Anderson | Phone: (555) 249-9648
+
+Description: This section establishes the administrative guidelines for the school’s operations. It is a fictional code used for data ingestion testing.
+
+1. Classification: CODE MQ-691 covers operational activities under the Attendance Rules policy.
+2. Enforcement: Violations under CODE MQ-691 are handled by the disciplinary board or equivalent authority.
+3. Documentation: Actions must be logged in the district system using reference tag "CODE MQ-691-LOG".
+4. Appeals: Students may appeal decisions referencing this code within 10 days using form "CODE MQ-691-APL".
+5. Recordkeeping: Each event under CODE MQ-691 should include time, staff witness, description, and resulting action.
+6. Notes: This code is generated for testing retrieval and embedding accuracy in RAG pipelines.
+---

@@ -1,0 +1,68 @@
+# Docker Commands for RAG Implementation
+# Copy and paste these commands directly in PowerShell
+
+# Variables (reference only)
+IMAGE_NAME=ollama-mistral-img
+CONTAINER_NAME=ollama-mistral-offline
+PORT=127.0.0.1:11434:11434
+
+# ============================================================
+# BUILD - Build the Docker image (run this first!)
+# ============================================================
+docker build -f dockerfile -t ollama-mistral-img .
+
+# ============================================================
+# RUN (GPU) - Start the Ollama container with GPU support
+# ============================================================
+docker stop ollama-mistral-offline 2>$null; docker rm ollama-mistral-offline 2>$null
+docker run -d --rm --gpus all --name ollama-mistral-offline -p 127.0.0.1:11434:11434 ollama-mistral-img
+
+# ============================================================
+# RUN (CPU) - Start the Ollama container (CPU only)
+# ============================================================
+docker stop ollama-mistral-offline 2>$null; docker rm ollama-mistral-offline 2>$null
+docker run -d --rm --name ollama-mistral-offline -p 127.0.0.1:11434:11434 ollama-mistral-img
+
+# ============================================================
+# STOP - Stop the running container
+# ============================================================
+docker stop ollama-mistral-offline
+
+# ============================================================
+# LOGS - View container logs
+# ============================================================
+docker logs -f ollama-mistral-offline
+
+# ============================================================
+# STATUS - Check if container is running
+# ============================================================
+docker ps --filter "name=ollama-mistral-offline"
+
+# ============================================================
+# SHELL - Open a shell inside the container
+# ============================================================
+docker exec -it ollama-mistral-offline /bin/bash
+
+# ============================================================
+# TEST - Test if Ollama is responding
+# ============================================================
+curl http://127.0.0.1:11434/api/tags
+
+# ============================================================
+# CLEAN - Stop container and remove image
+# ============================================================
+docker stop ollama-mistral-offline 2>$null
+docker rm ollama-mistral-offline 2>$null
+docker rmi ollama-mistral-img 2>$null
+
+# ============================================================
+# MODELS - List available models in the container
+# ============================================================
+docker exec ollama-mistral-offline ollama list
+
+# ============================================================
+# QUICK START GUIDE
+# ============================================================
+# 1. Build:  docker build -f dockerfile -t ollama-mistral-img .
+# 2. Run:    docker run -d --rm --name ollama-mistral-offline -p 127.0.0.1:11434:11434 ollama-mistral-img
+# 3. Test:   curl http://127.0.0.1:11434/api/tags

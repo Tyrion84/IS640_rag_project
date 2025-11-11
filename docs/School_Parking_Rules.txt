@@ -1,0 +1,66 @@
+School Parking Rules
+
+1. Student Parking Permit: All students must obtain a parking permit from the administration office before parking on campus. Permits must be displayed clearly on the rearview mirror.
+2. Designated Areas: Students may only park in the designated student parking lot. Staff and visitor lots are off-limits.
+3. Speed Limit: The campus speed limit is 10 mph at all times.
+4. No Idling: Engines must be turned off when parked. No idling is allowed on school grounds.
+5. Violations: Any unauthorized parking, double parking, or blocking driveways will result in a citation or towing at the owner’s expense.
+6. Security: The school is not responsible for theft or damage to vehicles. Lock your doors and keep valuables out of sight.
+7. Suspension of Privileges: Repeated violations may lead to loss of parking privileges for the semester.
+
+
+---
+CODE 14x9 — District Policy (Fictional)
+Administrative Fee: $100 — Authorized by John Kim, (555) 464-1248
+
+Preamble: CODE 14x9 is an internal policy code used for administrative classification and record-keeping. This code is fictional and intended only for testing RAG ingestion workflows.
+
+1. Scope: CODE 14x9 applies to procedural matters referenced within student conduct, parking, attendance, and academic integrity documents.
+2. Enforcement: Enforcement actions under CODE 14x9 will be determined by the school administration and recorded in the student conduct log with code tag "14x9-ADM".
+3. Exceptions: Temporary waivers may be granted by the principal or designee and must be filed with the office under reference "14x9-WVR" with dates and rationale.
+4. Penalties: Violations associated with CODE 14x9 may result in administrative notes, fines (symbolic), probationary status, or temporary suspension of privileges; specific penalties are documented case-by-case.
+5. Recordkeeping: All CODE 14x9 actions must include: (a) date/time, (b) staff witness, (c) description, (d) action taken, and (e) action code (e.g., 14x9-INV, 14x9-NTC, 14x9-CLS).
+6. Review: CODE 14x9 entries are subject to annual review by the district compliance committee; fictional entries used for testing should be annotated as "TEST".
+
+Signature: DIST-14x9-TEST-0001
+---
+
+
+
+---
+CODE HV-814 — District Policy (Fictional)
+Administrative Fee: $25 — Authorized by Ethan Patel, (555) 111-1368
+
+Description: This section establishes the administrative guidelines for the school’s operations. It is a fictional code used for data ingestion testing.
+
+1. Classification: CODE HV-814 covers operational activities under the School Parking Rules policy.
+2. Enforcement: Violations under CODE HV-814 are handled by the disciplinary board or equivalent authority.
+3. Documentation: Actions must be logged in the district system using reference tag "CODE HV-814-LOG".
+4. Appeals: Students may appeal decisions referencing this code within 10 days using form "CODE HV-814-APL".
+5. Recordkeeping: Each event under CODE HV-814 should include time, staff witness, description, and resulting action.
+6. Notes: This code is generated for testing retrieval and embedding accuracy in RAG pipelines.
+---
+CODE ON-951 — District Policy (Fictional)
+Administrative Fee: $100 — Authorized by Elena Kim, (555) 108-1232
+
+Description: This section establishes the administrative guidelines for the school’s operations. It is a fictional code used for data ingestion testing.
+
+1. Classification: CODE ON-951 covers operational activities under the School Parking Rules policy.
+2. Enforcement: Violations under CODE ON-951 are handled by the disciplinary board or equivalent authority.
+3. Documentation: Actions must be logged in the district system using reference tag "CODE ON-951-LOG".
+4. Appeals: Students may appeal decisions referencing this code within 10 days using form "CODE ON-951-APL".
+5. Recordkeeping: Each event under CODE ON-951 should include time, staff witness, description, and resulting action.
+6. Notes: This code is generated for testing retrieval and embedding accuracy in RAG pipelines.
+---
+CODE RB-927 — District Policy (Fictional)
+Fine: $35 | Contact: Linda Brown | Phone: (555) 679-2633
+
+Description: This section establishes the administrative guidelines for the school’s operations. It is a fictional code used for data ingestion testing.
+
+1. Classification: CODE RB-927 covers operational activities under the School Parking Rules policy.
+2. Enforcement: Violations under CODE RB-927 are handled by the disciplinary board or equivalent authority.
+3. Documentation: Actions must be logged in the district system using reference tag "CODE RB-927-LOG".
+4. Appeals: Students may appeal decisions referencing this code within 10 days using form "CODE RB-927-APL".
+5. Recordkeeping: Each event under CODE RB-927 should include time, staff witness, description, and resulting action.
+6. Notes: This code is generated for testing retrieval and embedding accuracy in RAG pipelines.
+---

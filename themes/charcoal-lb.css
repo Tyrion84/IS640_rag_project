@@ -1,0 +1,217 @@
+/* @theme charcoal-lb */
+
+@charset "UTF-8";
+@import "uncover"; /* optional: nice default slide layout */
+
+/* === Color tokens (tweak freely) === */
+:root {
+  --lb-charcoal: #141518;      /* slide background */
+  --lb-charcoal-2: #1b1d22;    /* panels / code bg */
+  --lb-gold: #FFB81C;          /* Long Beach gold accent */
+  --lb-white: #FFFFFF;
+  --lb-gray: #C8CCD4;
+  --lb-link: #FFB81C;          /* link color = gold */
+  --lb-link-hover: #ffd052;
+  --lb-code-fg: #EAEAEA;
+
+  /* Logo path: replace with your file path or URL (SVG/PNG) */
+  --lb-logo: url("../assets/lb_logo.png");
+  --lb-logo-size: 100px;        /* logo height */
+  --lb-logo-opacity: 0.05;
+}
+
+/* === Base slide === */
+section {
+  background: var(--lb-charcoal);
+  color: var(--lb-white);
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  letter-spacing: 0.1px;
+  line-height: 1.35;
+}
+
+/* Headings */
+section h1, section h2, section h3, section h4 {
+  color: var(--lb-gold);
+  font-weight: 800;
+  margin-bottom: 0.35em;
+}
+section h1 { font-size: 1.9em; }
+section h2 { font-size: 1.5em; }
+section h3 { font-size: 1.25em; }
+
+/* Text accents */
+strong { color: var(--lb-white); }
+em { color: var(--lb-gray); }
+
+/* Lists */
+section ul, section ol {
+  margin-left: 1.1em;
+}
+section li { margin: 0.25em 0; }
+
+/* Links */
+a, a:visited { color: var(--lb-link); text-decoration: none; border-bottom: 1px solid rgba(255,184,28,0.4); }
+a:hover { color: var(--lb-link-hover); border-bottom-color: rgba(255,184,28,0.8); }
+
+/* === Nicer code blocks === */
+pre {
+  position: relative;
+  background: var(--lb-charcoal-2);
+  color: var(--lb-white);
+  padding: 1rem 1.2rem 1.2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.06);
+  box-shadow:
+    0 10px 24px rgba(0,0,0,0.35),
+    inset 0 0 0 1px rgba(255,255,255,0.03);
+  overflow: auto;
+}
+
+/* Top “window chrome” bar + traffic-light dots */
+pre::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 28px;
+  border-radius: 12px 12px 0 0;
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  pointer-events: none;
+}
+pre::after {
+  content: "";
+  position: absolute;
+  top: 9px; left: 12px;
+  width: 42px; height: 10px;
+  background:
+    radial-gradient(#ff5f56 5px, transparent 6px),
+    radial-gradient(#ffbd2e 5px, transparent 6px),
+    radial-gradient(#27c93f 5px, transparent 6px);
+  background-size: 10px 10px, 10px 10px, 10px 10px;
+  background-position: 0 0, 16px 0, 32px 0;
+  background-repeat: no-repeat;
+  opacity: .9;
+  pointer-events: none;
+}
+
+/* Inline code */
+code {
+  background: var(--lb-charcoal-2);
+  color: var(--lb-code-fg);
+  padding: 0.08em 0.35em;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+/* Syntax highlighting (Marp uses highlight.js classes) */
+pre code.hljs { color: #e8eaf2; }
+.hljs-comment, .hljs-quote { color: #8b8e99; font-style: italic; }
+.hljs-keyword, .hljs-selector-tag, .hljs-subst { color: var(--lb-gold); font-weight: 600; }
+.hljs-string, .hljs-attr, .hljs-template-tag { color: #8255ff; }
+.hljs-number, .hljs-literal, .hljs-type { color: #9ece6a; }
+.hljs-title, .hljs-section, .hljs-selector-id { color: #cba6f7; }
+.hljs-name, .hljs-attribute { color: #f38ba8; }
+.hljs-addition { color: #a6e3a1; }
+.hljs-deletion { color: #f38ba8; }
+
+
+/* === Blockquotes: cleaner inline look === */
+blockquote {
+  margin: 0.8em 0;
+  padding: 0.6em 1em;
+  background: var(--lb-charcoal-2);
+  border-left: 4px solid var(--lb-gold);
+  border-radius: 6px;
+
+  color: var(--lb-gray);
+  font-style: italic;
+  font-size: 0.95em;
+
+  /* reset the wide open quote styling from uncover */
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after {
+  content: none !important;
+}
+
+/* === Tables: cleaner, light rows, only borders === */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+th, td {
+  border: 1px solid rgba(255, 255, 255, 0.15); /* thin white borders */
+  padding: 0.5em 0.8em;
+  text-align: left;
+}
+
+/* Header row */
+th {
+  background: #1e2026;     /* keep your strong dark header */
+  color: var(--lb-white);
+  font-weight: 700;
+}
+
+/* Body rows */
+td {
+  background: var(--lb-charcoal); /* same as slide background */
+  color: var(--lb-white);
+}
+
+/* Images */
+img { border-radius: 8px; }
+
+/* Admonitions (Marp + MkDocs-style callouts) */
+.note, .tip, .warning, .info, .danger, .success {
+  background: var(--lb-charcoal-2);
+  border-left: 4px solid var(--lb-gold);
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  margin: 0.6rem 0;
+}
+
+/* Pagination dots / progress (optional) */
+section::after {
+  color: rgba(255,255,255,0.35);
+}
+
+/* === Always-on corner logo ===
+   Appears on every slide, unobtrusive bottom-right.
+   Swap to top-left by changing 'bottom/right' to 'top/left'. */
+section::before {
+  content: "";
+  position: absolute;
+  right: 60px;
+  bottom: 12px;
+
+  /* Give it a real box + fallbacks */
+  width: var(--lb-logo-size, 64px);
+  height: var(--lb-logo-size, 64px);
+  opacity: var(--lb-logo-opacity, 0.1);
+
+  /* Use either your variable... */
+  /* background-image: var(--lb-logo); */
+
+  /* ...or the explicit file (make sure path is correct from THIS CSS file) */
+  background-image: var(--lb-logo);
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  pointer-events: none;
+
+  /* Make sure it sits above the slide background */
+  z-index: 1;
+}
+
+/* Optional: title slide = larger heading & faint watermark */
+section.lead h1 {
+  font-size: 2.3em;
+}
+section.lead::before {
+  opacity: 0.12;                /* slightly larger & fainter logo on title */
+  height: 44px;
+}
